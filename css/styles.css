@@ -78,10 +78,13 @@ ol {
 
 /* ---------------HEADER--------------------- */
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
   display: flex;
   padding: 0 15px;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .logo-header {
@@ -108,6 +111,9 @@ ol {
   display: flex;
   align-items: center;
   gap: 40px;
+}
+
+.header-nav-link {
   padding: 24px 0;
 }
 
@@ -158,9 +164,6 @@ ol {
 .order {
   background-color: var(--navy-color);
   display: flex;
-}
-
-.order-container {
   padding: 188px 0;
 }
 
@@ -194,7 +197,7 @@ ol {
 
 /* ------------------VALUES--------------------- */
 
-.values-container {
+.values {
   padding: 120px 0;
 }
 
@@ -223,7 +226,7 @@ ol {
 
 /* ---------------DIRECTIONS--------------------- */
 
-.directions-container {
+.directions {
   padding-bottom: 120px;
 }
 
@@ -249,12 +252,9 @@ ol {
 
 /* ---------------TEAM--------------------- */
 
-.team-container {
-  padding: 120px 0;
-}
-
 .team {
   background-color: var(--cloud-color);
+  padding: 120px 0;
 }
 
 .team-list {
@@ -342,7 +342,7 @@ ol {
 /* ---------------PORTFOLIO--------------------- */
 /* ---------------FILTER--------------------- */
 
-.portfolio-container {
+.portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
 }
