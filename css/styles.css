@@ -42,7 +42,7 @@ ol {
 
 .container {
   width: 1158px;
-  padding: 15px 0;
+  padding: 0 15px;
   margin: 0 auto;
   outline: 2px solid red;
 }
@@ -85,6 +85,7 @@ ol {
 .header-container {
   display: flex;
   padding: 0 15px;
+  align-items: center;
 }
 
 .logo-header {
@@ -115,6 +116,7 @@ ol {
 
 .header-nav-link {
   padding: 24px 0;
+  display: block;
 }
 
 .header-contacts {
@@ -163,7 +165,6 @@ ol {
 
 .order {
   background-color: var(--navy-color);
-  display: flex;
   padding: 188px 0;
 }
 
@@ -326,7 +327,6 @@ ol {
 
 .logo-footer {
   color: var(--cloud-color);
-  padding-top: 100px;
 }
 
 .footer-text {
@@ -334,8 +334,6 @@ ol {
   line-height: var(--standart-line-height);
   letter-spacing: var(--standart-letter-spacing);
   color: var(--cloud-color);
-  display: flex;
-  flex-wrap: wrap;
   max-width: 264px;
 }
 
@@ -389,10 +387,6 @@ ol {
 }
 .projects-item:nth-child(n + 6) {
   margin-bottom: 0;
-}
-
-.projects-item-img {
-  margin-bottom: 32px;
 }
 
 .projects-item-container {
